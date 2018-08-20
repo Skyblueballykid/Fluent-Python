@@ -1,7 +1,15 @@
 '''
-Not a part of Chapter 2, but very relevant to the data structures discussion:
+Additional helpful Numpy examples from:
 
  https://towardsdatascience.com/a-hitchhiker-guide-to-python-numpy-arrays-9358de570121
 '''
 
+import numpy as np
+import sys
+
+# Numpy is useful for homogenous datasets, using multiple types won't work
+numpy_arr = np.array([1,2,"Hello",3,"World"], dtype=np.int32)  # Error
+
+# A python list can handle a variety of types 
+py_arr = [1,2,"Hello",3,"World"] # Valid
 

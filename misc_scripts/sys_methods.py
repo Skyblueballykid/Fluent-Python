@@ -1,4 +1,3 @@
-import os
 import sys
 
 # some functions in the sys module
